@@ -28,4 +28,4 @@ if __name__ == "__main__":
         bday = item['Birthday']
         #print(bday)
         if (today == bday):
-            sendEmail(item['Email'], "Happy Birthday", item['Dialogue'])
+            sendEmail(item['Email'], "Happy Birthday"+item['Name'], item['Dialogue'])
